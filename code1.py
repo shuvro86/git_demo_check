@@ -1,1 +1,1 @@
-Hello from Feature 11!
+Hello from both features!
