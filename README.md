@@ -54,5 +54,5 @@ echo 'Hello from both features!' > code1.py
 ```
 git add code1.py
 git commit -m "Resolve merge conflict in code1.py"
-```
 git push origin main
+```
