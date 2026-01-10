@@ -19,7 +19,7 @@ git push origin main
 git checkout -b feature-1
 ```
 ```
-echo 'Hello from Feature 11!' > code1.py
+echo 'Hello from Feature 1!' > code1.py
 git add code1.py
 git commit -m "Update code.py in feature-1"
 git push origin feature-1
@@ -44,6 +44,15 @@ git push origin main
 ```
 git checkout main
 git merge feature-2
+```
+
+Git will report a conflict in code1.py. Open code1.py, which will look like:
+```
+<<<<<<< HEAD
+print('Hello from Feature 1!')
+=======
+print('Hello from Feature 2!')
+>>>>>>> feature-b
 ```
 
 ```
