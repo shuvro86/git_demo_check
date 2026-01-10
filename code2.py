@@ -1,1 +1,1 @@
-Hello from Feature 1!
+Hello from both features!
